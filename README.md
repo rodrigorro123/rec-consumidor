@@ -2,10 +2,10 @@
 ### Avaliação técnica back-end 
 
 - ##### Para consulta e teste via heroku, pode-se utilizar os link's abaixo
-    https://api-rec-consumidor.herokuapp.com/
+    https://rec-consumidor.herokuapp.com
 
 - ##### Para testar a api via heroku, pode-se utilizar o swagger disponivel pelo link 
-    https://api-rec-consumidor.herokuapp.com/swagger-ui.html#
+    https://rec-consumidor.herokuapp.com/swagger-ui.html#
 
 - ##### Estrutura utilizada para criação da api
     * Versao java: 1.8 
