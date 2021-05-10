@@ -61,7 +61,7 @@ public class ReclamacaoServiceTest {
 		try {
 
 			ReclamacaoCreateDto recl = ReclamacaoCreateDto.builder()
-					  ._id("6098595e7d3bc9953b793501")
+					  ._id("60988a9a7d3bc9c8eb1167cf")
 					  .descricao("descricao service")
 					  .empresa("empresa teste service")
 					  .localidade("Minha cidade service")
@@ -89,7 +89,7 @@ public class ReclamacaoServiceTest {
 					 .descricao("descricao teste")
 					 .build();
 			DetalheReclamacaoCreate recl = DetalheReclamacaoCreate.builder()
-			._id("6098595e7d3bc9953b793501")
+			._id("60988a9a7d3bc9c8eb1167cf")
 			.detalhes(detalhe)
 			.build();
 			

@@ -58,7 +58,7 @@ public class ReclamacaoTest {
 	public void testAtualizarReclamacao() throws Exception {
 		
 		ReclamacaoCreateDto recl = ReclamacaoCreateDto.builder()
-				  ._id("6098595e7d3bc9953b793501")
+				  ._id("60988a9a7d3bc9c8eb1167cf")
 				  .descricao("descricao")
 				  .empresa("empresa teste")
 				  .localidade("Minha cidade")
@@ -83,7 +83,7 @@ public class ReclamacaoTest {
 													 .descricao("descricao teste")
 													 .build();
 		DetalheReclamacaoCreate recl = DetalheReclamacaoCreate.builder()
-				  ._id("6098595e7d3bc9953b793501")
+				  ._id("60988a9a7d3bc9c8eb1167cf")
 				  .detalhes(detalhe)
 				  .build();
 		

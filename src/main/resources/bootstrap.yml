@@ -1,3 +1,5 @@
+eureka:
+  url: https://eureka-server-rro.herokuapp.com/eureka
 spring:
   application:
     name: @project.artifactId@-v@projeto.application.fullVersion@

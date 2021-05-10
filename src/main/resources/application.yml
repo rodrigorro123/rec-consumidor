@@ -3,7 +3,7 @@ eureka:
   client:
     registryFetchIntervalSeconds: 5
     serviceUrl:
-      defaultZone: ${REGISTRY_SERVICE_URL:http://localhost:8761/eureka}
+      defaultZone: ${eureka.url:http://localhost:8761/eureka}
   instance:
     statusPageUrlPath: /actuator/info
     healthCheckUrlPath: /actuator/health
@@ -16,6 +16,10 @@ eureka:
 endpoints:
   restart:
     enabled: true
+    
+logging:
+  level:
+    org.mongodb.driver.cluster: off
        
 # Server
 server:
@@ -25,13 +29,10 @@ spring:
   jackson:
     time-zone:
       "UTC"
-  jpa:
-    show-sql: false
     hibernate:
       jdbc:
         time_zone: "UTC" 
   data:
     mongodb:
-      uri: mongodb://rodrigo:123456@localhost/projeto
-
-
+      uri: mongodb+srv://rodrigo:suce550@rodrigo.swrm4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority 
+          
